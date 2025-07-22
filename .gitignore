@@ -1,0 +1,61 @@
+# Saídas de compilação
+/bin/
+/build/
+/out/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+
+# Arquivos de configuração específicos do usuário
+*.properties
+*.xml
+# Descomente a linha abaixo se você tiver arquivos de configuração sensíveis que não devem ser versionados
+# config/*.properties
+
+# Outros arquivos gerados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+hs_err_pid*.log
+
+# Testes
+/coverage/
+.sonar/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
