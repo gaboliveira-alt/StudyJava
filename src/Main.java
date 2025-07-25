@@ -13,5 +13,7 @@ public class Main {
         int age = scanner.nextInt();
         // var age = scanner.nextInt();
         System.out.printf("Olá %s sua idade é %s \n", name, age);
+
+        scanner.close();
     }
 }
